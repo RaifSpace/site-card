@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "JetBrainsMono";
+    font-style: normal;
+    font-weight: 400;
+    src: local("JetBrainsMono"), /* если шрифт не установлен у юзера локально, указываю путь */
+             url("./JetBrainsMono-Regular.woff2") format("woff2"),
+             url("./JetBrainsMono-Regular.woff") format("woff");
+  }
